@@ -1,0 +1,153 @@
+:root{
+    --lightblue:  #0DBBFC;
+    --darkblue:#0A2640;
+    --green: #65E4A3 ;
+    --greyblue:#8FB6D5;
+    --white:white;
+    --grey: #777777;
+    --lightgrey:#F1F1F1;
+    --backgroundgrey: #E5E5E5;
+}
+
+.blog{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    background-color: var(--lightgrey);
+}
+
+.blog .main{
+  
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.blog .main span{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.blog .main span p,.blog .main span ul{
+    width: 500px;
+}
+
+.blog .main span p{
+    line-height: 56px;
+    font-size: 36px;
+}
+
+
+.main ul li{
+    padding: 5px;
+    box-shadow: 0px 5px 10px 0px var(--grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+ul li > *:nth-child(1){
+    margin-left: 10px;
+}
+
+
+
+/* .page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.page2 h6{
+    color: var(--grey);
+}
+
+.page2 .main-p{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+
+.page2 div{
+    display: flex;
+    flex-basis: 33%;
+    width: 1000px;
+}
+ */
+
+
+
+/***************MEDIA QUERIES***************/
+
+
+@media screen and (max-width:768px) {
+    .blog{
+        height: auto !important;
+        width:100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blog .main img{
+       display: none;
+    }
+    
+    .blog .main{
+      
+        display: flex;
+        flex-direction: column !important;
+        margin: 20px 20px;
+        flex-direction: column;
+    }
+    
+    .blog .main span{
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    .blog .main span p,.blog .main span ul{
+        width: auto !important;
+    }
+    
+    .blog .main span p{
+        line-height: 56px;
+        font-size: 36px;
+    }
+    
+    
+    .main ul li{
+        padding: 5px;
+        box-shadow: 0px 5px 10px 0px var(--grey);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 20px;
+    }
+    
+    
+    ul li > *:nth-child(1){
+        margin-left: 10px;
+    }
+    
+
+
+    
+}

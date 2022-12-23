@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open sans',sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: 0.4s ease-in-out;
+}
+
+button{
+    cursor:pointer;
+}
+
+:root{
+    --lightblue:  #0DBBFC;
+    --darkblue:#0A2640;
+    --green: #65E4A3 ;
+    --greyblue:#8FB6D5;
+    --white:white;
+    --grey: #777777;
+    --lightgrey:#F1F1F1;
+}
+
+

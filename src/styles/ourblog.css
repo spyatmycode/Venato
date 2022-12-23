@@ -1,0 +1,335 @@
+:root{
+    --lightblue:  #0DBBFC;
+    --darkblue:#0A2640;
+    --green: #65E4A3 ;
+    --greyblue:#8FB6D5;
+    --white:white;
+    --grey: #777777;
+    --lightgrey:#F1F1F1;
+    --backgroundgrey: #E5E5E5;
+}
+
+.ourblog{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.ourblog div article span p{
+    font-size: small;
+}
+
+
+
+.ourblog h6{
+    color: var(--grey);
+    font-size: 20px;
+    text-align: center;
+}
+
+.ourblog .main-p{
+    font-size: 48px;
+    width: 842px;
+    text-align: center;
+}
+
+.ourblog div{
+    display: flex;
+    width: 1000px;
+    margin: 40px 0px;
+    flex-basis: 33%;
+    justify-content: space-between;
+}
+
+.ourblog div article{
+    width: 300px;
+}
+
+
+.ourblog div article span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.ourblog div article span *{
+    font-size: 15px;
+}
+
+.ourblog div article p{
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    padding: 15px 40px;
+    border: 2px solid var(--darkblue);
+    border-radius: 30px;
+    background-color: white;
+    color: var(--darkblue);
+    margin: 40px 0px 40px 0px;
+}
+
+
+/********CALL TO ACTION ****************/
+
+.call-to-action{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: var(--lightgrey);
+
+
+}
+
+.call-to-action div{
+    background-color: var(--darkblue);
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 391px;
+    border-radius: 20px;
+}
+
+
+.call-to-action div p{
+    font-size: 48px;
+    line-height: 72px;
+    width: 716px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.call-to-action  div form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.call-to-action   form *{
+    height: 40px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.call-to-action   form input{
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+/************FOOTER ************/
+
+.footer div{
+    display: grid;
+    grid-template-columns: 300px auto auto auto;
+    place-items: center;
+    column-gap: 200px;
+
+}
+
+
+
+.footer{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--lightgrey);
+    
+}
+
+.footer div ul :nth-child(1){
+    font-weight: 900;
+    color: var(--darkblue);
+}
+
+.footer div ul li{
+    text-align: left;
+    margin: 20px 0px;
+}
+
+
+
+
+/************* MEDIA QUERIES ***************/
+
+@media screen and (max-width: 768px){
+
+    .ourblog{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .ourblog div article span p{
+        font-size: small;
+    }
+    
+    
+    
+    .ourblog h6{
+        color: var(--grey);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .ourblog .main-p{
+        font-size: 30px !important;
+        width: auto !important;
+        text-align: center;
+    }
+    
+    .ourblog div{
+        display: flex;
+        width: 100vw;
+        margin: 40px auto;
+        flex-basis: 100%;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    
+    .ourblog div article{
+        width: 300px;
+        margin: 30px 20px;
+    }
+    
+    
+    .ourblog div article span{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    
+    .ourblog div article span *{
+        font-size: 15px;
+    }
+    
+    .ourblog div article p{
+        font-size: 20px;
+        color: black;
+    }
+    
+    button{
+        padding: 15px 40px;
+        border: 2px solid var(--darkblue);
+        border-radius: 30px;
+        background-color: white;
+        color: var(--darkblue);
+        margin: 40px 0px 40px 0px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    .call-to-action{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        min-height: 90vh;
+        background-color: var(--lightgrey);
+    
+    
+    }
+    
+    .call-to-action div{
+        background-color: var(--darkblue);
+        padding: 20px 40px;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 250px;
+        border-radius: 20px;
+        margin: 20px 20px;
+    }
+    
+    
+    .call-to-action div p{
+        font-size: 20px;
+        line-height: 72px;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .call-to-action  div form{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .call-to-action   form *{
+        height: 40px;
+        padding: 10px;
+        margin: 0px 5px;
+    }
+    
+    .call-to-action   form input{
+        max-width: 200px;
+        border-radius: 30px;
+        border: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px;
+        /* align-items: center; */
+    }
+    
+    
+    
+    .footer{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--lightgrey);
+        
+    }
+
+    .footer div ul li{
+        font-size: 12px !important;
+    }
+    
+    .footer div ul :nth-child(1){
+        font-weight: 900;
+        color: var(--darkblue);
+    }
+    
+    .footer div ul li{
+        text-align: left;
+        margin: 20px 0px;
+    }
+    
+}
