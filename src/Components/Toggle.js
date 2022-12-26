@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/nav.css'
 
-const Toggle = ({ navState }) => {
+const Toggle = ({ navState, color }) => {
     return (
         <div className='toggle' style={{
             display: 'flex',
@@ -18,7 +18,7 @@ const Toggle = ({ navState }) => {
                     display: 'block',
                     width: `${navState ? '50px' : '50px'}`,
                     color: 'white',
-                    borderBottom: '5px solid white'
+                    borderBottom: `5px solid ${color}`
                 }}
             ></span>
             <span
@@ -27,7 +27,7 @@ const Toggle = ({ navState }) => {
                     display: 'block',
                     width: `${navState ? '40px' : '50px'}`,
                     color: 'white',
-                    borderBottom: '5px solid white'
+                    borderBottom: `5px solid ${color ? color : 'white'}`
                 }}
             ></span>
             <span
@@ -36,7 +36,7 @@ const Toggle = ({ navState }) => {
                     display: 'block',
                     width: `${navState ? '30px' : '50px'}`,
                     color: 'white',
-                    borderBottom: '5px solid white'
+                    borderBottom: `5px solid ${color ? color : 'white'}`
                 }}
             ></span>
 

@@ -4,11 +4,15 @@ import Router from './Routes/router';
 import './index.css'
 
 
+const Index = () => {
+  return (
+    <> <Router /></>
+  )
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <Router />
-  </>
+  <Index />
 );
-
 

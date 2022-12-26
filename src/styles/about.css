@@ -1,0 +1,549 @@
+:root{
+    --lightblue:  #0DBBFC;
+    --darkblue:#0A2640;
+    --green: #65E4A3 ;
+    --greyblue:#8FB6D5;
+    --white:white;
+    --grey: #777777;
+    --lightgrey:#F1F1F1;
+    --backgroundgrey: #E5E5E5;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.about{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--green);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+    
+}
+
+.hr{
+    width: 700px;
+    margin: 60px 0px;
+
+}
+
+
+
+.about .second p{
+    word-spacing: 8px;
+    font-weight: 300;
+}
+
+.about .second .main-text{
+    width: 400px;
+    line-height: 50px;
+}
+
+
+
+.about .second{
+    margin: 20px 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: initial;
+    display: flex;
+}
+
+
+.two,.three{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--white);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+.two p{
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 40vw;
+    margin: 10px auto 50px auto;
+    text-align: center;
+}
+.two div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two div span{
+    margin: 10px 30px;
+}
+
+.two div span h3{
+    font-size: 48px;
+    font-weight: 200;
+}
+
+
+.three{
+    background-color: var(--darkblue);
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    height: auto !important;
+}
+
+.three p{
+    margin: auto 40px;
+}
+
+
+.four{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.four .first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    max-width: 800px;
+    max-height: 300px;
+    margin: auto;
+}
+
+
+.four .second{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.four .second span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+
+}
+
+.four .second span :nth-child(2) {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 200;
+
+}
+.four .second span :nth-child(3) {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 100;
+    color: var(--grey);
+
+}
+.four .first :nth-child(1){
+    color: var(--grey);
+    font-size: 20px;
+    line-height: 32px;
+}
+.four .first :nth-child(2){
+    color: black;
+    font-size: 48px;
+    line-height: 72px;
+
+}
+.four .first :nth-child(3){
+    color: var(--grey);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.five{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    row-gap: 30px;
+    column-gap: 60px;
+    padding: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.five span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.five span div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    height:80px;
+}
+
+.five span div :nth-child(1){
+    font-size: 28px;
+    font-weight: 300;
+}
+.five span div :nth-child(2){
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.six{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--darkblue);
+    color: white;
+    align-items: center;
+}
+
+.six-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 100vw;
+    align-items:  center;
+    margin: 40px;
+    text-align: center;
+}
+
+.six-first :nth-child(1){
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 32px;
+
+}
+.six-first :nth-child(2){
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 72px;
+
+}
+
+
+
+.six-second span{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: left !important;
+    align-items: right;
+    column-gap: 60px;
+    margin-bottom: 40px;
+  
+    
+}
+
+ .six-second span :nth-child(1){
+  
+    font-size: 48px;
+   
+} 
+ .six-second span :nth-child(2){
+    font-size: 17px; 
+    font-weight: 100; 
+    max-width: 500px;
+} 
+
+.six-second span :nth-child(1) span{
+    color:#65E4A3
+}
+
+
+
+/*****MEDIA QUERIES *******/
+
+@media screen and (max-width: 800px){
+
+    html > *{
+        overflow-x: hidden !important;
+    }
+
+    .hr{
+        width: 200px;
+    }
+
+.about{
+    padding: 100px 0px;
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--green);
+    color: black;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    flex-shrink: 1;
+   
+    
+}
+
+
+
+.about .second p{
+    word-spacing: 8px;
+    font-weight: 300;
+}
+
+.about .second .main-text{
+    width: auto!important;
+    line-height: 50px;
+}
+
+
+
+.about .second{
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: initial;
+    display: flex;
+}
+
+
+.two,.three{
+    width: 100vw !important;
+    height: auto;
+    background-color: var(--white);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+.two p{
+    font-size: 36px;
+    font-weight: 300;
+    width: auto !important;
+    margin: 20px;
+    text-align: center;
+}
+.two div{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+
+.two div span{
+    margin: 10px 30px;
+    flex-shrink: 1;
+}
+
+.two div span h3{
+    font-size: 48px;
+    font-weight: 200;
+}
+
+
+.three{
+    background-color: var(--darkblue);
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    height: auto !important;
+    width: 100vw !important;
+}
+
+.three p{
+    margin: auto 50px;
+}
+
+
+.four{
+    width: 100vw;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0px;
+
+}
+
+.four .first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    /* max-width: 800px; */
+    height: auto;
+    margin: 15px;
+}
+
+.four .first p{
+    width: 100vw;
+    word-wrap: break-word;
+}
+
+
+.four .second{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.four .second span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+
+}
+
+.four .second span :nth-child(2) {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 200;
+
+}
+.four .second span :nth-child(3) {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 100;
+    color: var(--grey);
+
+}
+.four .first :nth-child(1){
+    color: var(--grey);
+    font-size: 20px;
+    line-height: 32px;
+}
+.four .first :nth-child(2){
+    color: black;
+    font-size: 36px;
+    line-height: 72px;
+
+}
+.four .first :nth-child(3){
+    color: var(--grey);
+    font-size: 17px;
+    line-height: 32px;
+    max-width: 90vw;
+}
+
+.five{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    place-content: center;
+    row-gap: 30px;
+    column-gap: 60px;
+    padding: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.five span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 3;
+    width: 300px;
+}
+
+.five span div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    height:80px;
+}
+
+.five span div :nth-child(1){
+    font-size: 28px;
+    font-weight: 300;
+}
+.five span div :nth-child(2){
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.six{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--darkblue);
+    color: white;
+    align-items: center;
+}
+
+.six-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 144px;
+    align-items:  center;
+    margin: 20px;
+    text-align: center;
+}
+
+.six-first :nth-child(1){
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 22px;
+
+}
+.six-first :nth-child(2){
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    max-width: 90vw;
+
+}
+
+
+
+.six-second span{
+   display: flex !important;
+   flex-direction: row !important;
+   margin: 20px;
+  
+    
+}
+
+ .six-second span :nth-child(1){
+  
+    font-size: 24px;
+    
+   
+} 
+ .six-second span :nth-child(2){
+    font-size: 17px; 
+    font-weight: 100; 
+    max-width: 500px;
+} 
+
+.six-second span :nth-child(1) span{
+    color:#65E4A3
+}
+
+    
+}

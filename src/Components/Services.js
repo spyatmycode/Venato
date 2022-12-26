@@ -8,8 +8,6 @@ import ServicesTwo from './ServicesTwo'
 import Reviews from './Reviews'
 import OurBlog from './OurBlog'
 import Blog from './Blog'
-import CallToAction from './CallToAction'
-import Footer from './Footer'
 
 
 const Services = () => {
@@ -84,8 +82,7 @@ const Services = () => {
             <Reviews />
             <Blog />
             <OurBlog />
-            <CallToAction />
-            <Footer />
+
         </>
     )
 }

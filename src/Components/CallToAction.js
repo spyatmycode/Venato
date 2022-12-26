@@ -17,7 +17,8 @@ const CallToAction = () => {
                         backgroundColor: '#65E4A3',
                         fontWeight: 'bold',
                         color: '#0A2640',
-                        padding: '10px 30px'
+                        padding: '15px 30px',
+                        fontSize: '9px'
                     }}>
                         START NOW
                     </button>

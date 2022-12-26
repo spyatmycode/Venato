@@ -57,7 +57,7 @@ nav .log-in{
 
 /************MEDIA QUERIES***********/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     nav ul{
         display:none;
     }

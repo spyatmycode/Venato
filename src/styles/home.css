@@ -31,7 +31,8 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: 95vh;
+    
    
 }
 
@@ -86,7 +87,7 @@ button{
 }
 
 
-article{
+.first article{
     width: 567px;
     display: flex;
     flex-direction: column;
@@ -98,12 +99,12 @@ article{
     
 }
 
-article:first-child{
+.first article:first-child{
     font-size: 48px;
     font-weight: 400;
 }
 
-article p:nth-child(2){
+.first article p:nth-child(2){
     font-size: 16px;
     color:white;
 }
@@ -293,7 +294,7 @@ article p:nth-child(2){
 
 /* This is for the Testimonials  */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
  
 .reviews .testimonials{
     width: 100vw!important;
@@ -333,7 +334,7 @@ article p:nth-child(2){
 /* This is for the Services Two page      */
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .services-two{
         width: 100vw;
         height: auto;
@@ -399,7 +400,7 @@ article p:nth-child(2){
 
 /* This is for the Home and Services page */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .circle{
         display: none;
     }

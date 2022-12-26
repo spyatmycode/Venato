@@ -6,6 +6,9 @@ import Presto from './Presto'
 import Services from './Services'
 
 
+
+
+
 const Home = () => {
     return (
 
@@ -17,7 +20,7 @@ const Home = () => {
                 <div className='first'>
                     <div className='left'>
                         <article>
-                            <p>
+                            <p style={{ fontSize: '48px', color: 'white', fontWeight: '400' }}>
                                 Save time by building  fast with Boldo Template
                             </p>
                             <p>
