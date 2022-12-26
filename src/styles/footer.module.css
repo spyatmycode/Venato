@@ -1,6 +1,6 @@
 .footerone{
     display: grid;
-    grid-template-columns: 200px auto auto auto;
+    grid-template-columns: 180px auto auto auto;
     place-items: center;
     column-gap: 200px;
     overflow-x: hidden !;
