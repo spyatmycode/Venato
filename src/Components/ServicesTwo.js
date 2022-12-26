@@ -26,7 +26,7 @@ const ServicesTwo = () => {
             <li><FaCheckCircle size={20} color='#0A2640' />Business to consumer long tail.</li>
           </ul>
 
-          <button>Start now</button>
+          <button onClick={() => window.location.href = `#call-to-action`}>Start now</button>
         </div>
 
 

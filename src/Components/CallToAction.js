@@ -3,7 +3,7 @@ import '../styles/ourblog.css'
 
 const CallToAction = () => {
     return (
-        <section className='call-to-action'>
+        <section className='call-to-action' id='call-to-action'>
             <div>
                 <p>
                     An enterprise template to ramp up your company website

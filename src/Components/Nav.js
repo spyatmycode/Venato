@@ -127,7 +127,7 @@ const Nav = () => {
                     <Toggle navState={navState} color={getColor('logo')} />
                 </div>
                 <ul>
-                    <NavLink to='/product' style={{ color: getColor('a-tag') }}>
+                    <NavLink to='/blog' style={{ color: getColor('a-tag') }}>
                         <li>Product</li>
                     </NavLink>
                     <NavLink to='/' onClick={() => { navigate('services') }} style={{ color: getColor('a-tag') }}>
@@ -150,7 +150,7 @@ const Nav = () => {
 
 
                 <ul>
-                    <NavLink to='/product'>
+                    <NavLink to='/blog'>
                         <li >Product</li>
                     </NavLink>
                     <NavLink to='/' onClick={() => { navigate('services') }}>
