@@ -334,7 +334,7 @@ button{
 /* This is for the Services Two page      */
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .services-two{
         width: 100vw;
         height: auto;
@@ -400,7 +400,7 @@ button{
 
 /* This is for the Home and Services page */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .circle{
         display: none;
     }

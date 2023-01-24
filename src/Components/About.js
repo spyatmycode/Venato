@@ -32,19 +32,19 @@ const About = () => {
 
             <div className="two">
                 <h6 style={{ fontWeight: '300' }}>Our members</h6>
-                <p>Handshake infographic mass market crowdfunding iteration.</p>
+                <p>Be in charge of your expenses</p>
                 <div>
                     <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <h3>120m</h3>
-                        <p style={{ fontSize: '15px' }}>Cool feature</p>
+                        <h3>24 hours</h3>
+                        <p style={{ fontSize: '15px' }}>a day</p>
                     </span>
                     <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <h3>10.000</h3>
-                        <p style={{ fontSize: '15px' }}>Cool feature</p>
+                        <h3>7 days</h3>
+                        <p style={{ fontSize: '15px' }}>a week</p>
                     </span>
                     <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <h3>240</h3>
-                        <p style={{ fontSize: '15px' }}>Cool feature</p>
+                        <h3>365 days</h3>
+                        <p style={{ fontSize: '15px' }}>a year</p>
                     </span>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const About = () => {
                 <p style={{ fontSize: '20px', lineHeight: '32px' }}>Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. Traction stock user experience deployment beta innovator incubator focus. Sales user experience branding growth hacking holy grail monetization conversion prototype stock network effects. Learning curve network effects return on investment bootstrapping business-to-consumer. </p>
             </div>
 
-            <div className="four">
+            {/* <div className="four">
                 <div className="first">
                     <p>Our team</p>
                     <p>The people behind the work</p>
@@ -82,8 +82,8 @@ const About = () => {
 
                 </div>
             </div>
-
-            <div className="five">
+ */}
+            {/* <div className="five">
                 <span>
                     <img src={GM} alt="" width={'120px'} />
                     <div>
@@ -113,7 +113,7 @@ const About = () => {
                     </div>
                 </span>
 
-            </div>
+            </div> */}
 
             <div className="six">
                 <div className="six-first">

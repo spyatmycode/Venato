@@ -20,17 +20,17 @@ const Home = () => {
                 <div className='first'>
                     <div className='left'>
                         <article>
-                            <p style={{ fontSize: '48px', color: 'white', fontWeight: '400' }}>
-                                Save time by building  fast with Boldo Template
+                            <p style={{ fontSize: '50px', color: 'white', fontWeight: '400' }}>
+                                Tracking your money made easy and simple
                             </p>
                             <p>
-                                Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.
+                                All your payments managed in one place.
                             </p>
                         </article>
 
                         <div className="home-btn">
                             <button>
-                                Buy template
+                                Sign Up
                             </button>
 
                             <button>

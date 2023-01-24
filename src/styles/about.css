@@ -271,7 +271,7 @@ html{
 
 /*****MEDIA QUERIES *******/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 
     html > *{
         overflow-x: hidden !important;

@@ -17,13 +17,13 @@ const ServicesTwo = () => {
 
         <div>
           <h4>
-            We connect our customers with the best, and help them keep up-and stay open.
+            Track all your finances with ease
           </h4>
 
           <ul>
-            <li><FaCheckCircle size={20} color='#0A2640' />We connect our customers with the best.</li>
-            <li><FaCheckCircle size={20} color='#0A2640' />Advisor success customer launch party.</li>
-            <li><FaCheckCircle size={20} color='#0A2640' />Business to consumer long tail.</li>
+            <li><FaCheckCircle size={20} color='#0A2640' />Budgeting that works.</li>
+            <li><FaCheckCircle size={20} color='#0A2640' />Sync all yout budgets.</li>
+            <li><FaCheckCircle size={20} color='#0A2640' />Plan for huge expenses.</li>
           </ul>
 
           <button onClick={() => window.location.href = `#call-to-action`}>Start now</button>
@@ -41,13 +41,13 @@ const ServicesTwo = () => {
 
         <div>
           <h4>
-            We connect our customers with the best, and help them keep up-and stay open.
+            Manage all accounts in one place.
           </h4>
 
           <ul>
             <li style={{ backgroundColor: '#0A2640', color: 'white' }}><FaFeather size={20} color='white' />We connect our customers with the best.</li>
-            <li><FaEye size={20} color='#0A2640' />Advisor success customer launch party.</li>
-            <li><FaSun size={20} color='#0A2640' />Business to consumer long tail.</li>
+            <li><FaEye size={20} color='#0A2640' />Add transactions with a simple tap.</li>
+            <li><FaSun size={20} color='#0A2640' />Track your income and expenses.</li>
           </ul>
 
 

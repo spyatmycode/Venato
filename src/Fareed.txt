@@ -1,0 +1,8 @@
+Nifemi : """ I worked on home page and removed unnecessary details from everything
+
+#### Fareed to work on:
+---Text on About JS (About.js)
+--- Text on Product page (Blog-route.js)
+
+
+###

@@ -32,7 +32,7 @@ const BlogRoute
 
                             </span>
                             <p className='blog-1-two-p'>Pitch termsheet backing validation focus release.</p>
-                            <div style={{ display: 'flex', margin: '60px', alignItems: 'center', }}><img src={Bing} alt="" style={{ width: "32px" }} />  <h6 style={{ marginLeft: '20px ' }}>Chandler Bing</h6></div>
+                            {/* <div style={{ display: 'flex', margin: '60px', alignItems: 'center', }}><img src={Bing} alt="" style={{ width: "32px" }} />  <h6 style={{ marginLeft: '20px ' }}>Chandler Bing</h6></div> */}
 
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const BlogRoute
                     <hr className='hr' />
                 </div>
 
-                <div className='articles'>
+                {/*  <div className='articles'>
                     <div className='latest'>
                         <Article />
                         <Article />
@@ -53,7 +53,7 @@ const BlogRoute
                     <button>Load More</button>
 
                 </div>
-
+ */}
 
 
 

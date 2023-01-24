@@ -15,7 +15,7 @@ const Footer = () => {
                 <ul>
                     <li> <Logo size={20} /></li>
                     <li>
-                        Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.
+                        Improving the way you manage your finances.
                     </li>
 
                 </ul>

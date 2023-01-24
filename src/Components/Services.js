@@ -5,9 +5,9 @@ import third from '../assets/Rectangle 1270-2.svg'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 import ServicesTwo from './ServicesTwo'
-import Reviews from './Reviews'
+/* import Reviews from './Reviews'
 import OurBlog from './OurBlog'
-import Blog from './Blog'
+import Blog from './Blog' */
 
 
 const Services = () => {
@@ -26,7 +26,7 @@ const Services = () => {
 
                     </h6>
                     <p>
-                        Handshake infographic mass market crowdfunding iteration.
+                        All finances managed in one place
                         {/* font-size: 48px */}
 
                     </p>
@@ -37,35 +37,35 @@ const Services = () => {
                         <img src={first} alt="first" width='300px'
                             height='354px' />
                         <h4>
-                            Cool feature title
+                            Track your finances while on the go.
                         </h4>
                         <p>
-                            Learning curve network effects return on investment.
+                            Never worry about your expenses.
                         </p>
                         {/* e=>window.location.href="#id" */}
-                        <Link>Explore page <FaArrowRight size={10} /></Link>
+                        <Link>Learn more <FaArrowRight size={10} /></Link>
                     </div>
                     <div>
                         <img src={second} alt="second" width='300px'
                             height='354px' />
                         <h4>
-                            Cool feature title
+                            Track your finances at work.
                         </h4>
                         <p>
-                            Learning curve network effects return on investment.
+                            Manage your money even at those boring meetings.
                         </p>
-                        <Link>Explore page <FaArrowRight size={10} /></Link>
+                        <Link>Learn more <FaArrowRight size={10} /></Link>
                     </div>
                     <div>
                         <img src={third} alt="third" width='300px'
                             height='354px' />
                         <h4>
-                            Cool feature title
+                            Track your finances at your leisure.
                         </h4>
                         <p>
-                            Learning curve network effects return on investment.
+                            Be in charge of your funds when you can.
                         </p>
-                        <Link>Explore page <FaArrowRight size={10} /></Link>
+                        <Link>Learn more <FaArrowRight size={10} /></Link>
                     </div>
 
 
@@ -79,9 +79,9 @@ const Services = () => {
             </section>
 
             <ServicesTwo />
-            <Reviews />
-            <Blog />
-            <OurBlog />
+            {/* <Reviews /> */}
+            {/* <Blog /> */}
+            {/* <OurBlog /> */}
 
         </>
     )
