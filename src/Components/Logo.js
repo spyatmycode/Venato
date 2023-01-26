@@ -12,7 +12,7 @@ const Logo = ({ color, size, location }) => {
             {/* <img className='logo' src={location === '/' ? logo : blueLogo} alt='Logo' height={size ? `${size}px` : '30px'} /> */}
 
 
-            <h1 style={{ fontSize: `${size ? `${size}px` : '30px'}`, marginLeft: '10px', color: `${location === '/' ? 'white' : color}` }}>
+            <h1 style={{ fontSize: `${size ? `${size}px` : '30px'}`, marginLeft: '100px', color: `${location === '/' ? 'white' : color}` }}>
                 VENATO
             </h1>
 
