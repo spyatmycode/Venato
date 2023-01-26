@@ -14,7 +14,7 @@ const Footer = () => {
             <div className={FooterStyle.footerone}>
                 <ul>
                     <li> <Logo size={20} /></li>
-                    <li>
+                    <li style={{ marginLeft: '20px' }}>
                         Improving the way you manage your finances.
                     </li>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <ul>
                     <li className={FooterStyle.head}>Landing</li>
                     <Link to={'/'}><li>Home</li></Link>
-                    <Link to={'/about'}><li><li>Products</li></li></Link>
+                    {/* <Link to={'/about'}><li><li>Products</li></li></Link> */}
                     <Link to={'/'} onClick={() => navigate('services')}><li><li>Services</li></li></Link>
 
 
@@ -34,7 +34,7 @@ const Footer = () => {
                 <ul>
                     <li className={FooterStyle.head}>Company</li>
                     <Link to={'/'}><li>Home</li></Link>
-                    <Link to={'/'}><li style={{ display: 'flex', alignItems: 'center' }}> Career <div className='hiring'>Hiring !</div></li></Link>
+                    {/* <Link to={'/'}><li style={{ display: 'flex', alignItems: 'center' }}> Career <div className='hiring'>Hiring !</div></li></Link> */}
 
                     <Link to={'/'} onClick={() => navigate('services')}><li>Services</li></Link>
 
@@ -44,7 +44,7 @@ const Footer = () => {
                 <ul>
                     <li className={FooterStyle.head}>Resources</li>
                     <Link to='/blog'><li>Blog</li></Link>
-                    <Link to='/about'><li>Product</li></Link>
+                    {/* <Link to='/about'><li>Product</li></Link> */}
                     <Link to='/' onClick={() => navigate('services')}><li>Services</li></Link>
 
                 </ul>
